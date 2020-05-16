@@ -304,8 +304,7 @@ font-family: 'Lemon', cursive;
     font-size: 190%;   
 }
 .wrapper5{
-    display: grid;
-    grid-template-columns: 100%;
+    display: block;
 }
 .stat{
     border-radius: 15%;
@@ -355,3 +354,4 @@ html.is-animating .transition-fade{
     height: fit-content;
     z-index: -1;
   }
+  
