@@ -12,7 +12,8 @@
     <link href="./css/responsive.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Rochester&family=Russo+One&display=swap" rel="stylesheet"> 
- 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
     <div class="menu-wrap">
@@ -38,21 +39,21 @@
             <img src="./images/ipl2018.jpeg" height="100%" width="100%" style="border-radius:12%" class="msd"
           </div>
           <div class="wrapper5">
-            <header class="page-header">PADMA BHUSHAN MAHENDRA SINGH DHONI</header>
-             <img src="./images/padma.jpg" height="100%" width="100%" style="border-radius:12%" class="msd">
+            <header class="page-header" data-aos="fade-left">PADMA BHUSHAN MAHENDRA SINGH DHONI</header>
+             <img src="./images/padma.jpg" height="100%" width="100%" style="border-radius:12%" class="msd" data-aos="fade-right">
           </div>
           <div class="wrapper5" style="margin: 10px 0;">
-            <header class="page-header rw2">LIEUTENANT COLONEL : 106 PARA TA BATTALION</header>
-            <img src="./images/msdmil.jpg" height="100%" width="100%"style="border-radius:12%" class="msd">
+            <header class="page-header rw2"  data-aos="fade-left">LIEUTENANT COLONEL : 106 PARA TA BATTALION</header>
+            <img src="./images/msdmil.jpg" height="100%" width="100%"style="border-radius:12%" class="msd"  data-aos="fade-right">
 
           </div>
           <div class="wrapper5" style="margin: 10px 0;">
-            <header class="page-header ">ICC ODI PLAYER OF THE YEAR 2008, 2009</header>
-            <img src="./images/icc.jpg" height="100%" width="100%"style="border-radius:12%" class="msd">
+            <header class="page-header " data-aos="fade-left">ICC ODI PLAYER OF THE YEAR 2008, 2009</header>
+            <img src="./images/icc.jpg" height="100%" width="100%"style="border-radius:12%" class="msd"  data-aos="fade-right">
           </div>
           <div class="wrapper5" style="margin: 10px 0;">
-            <header class="page-header rw2">LG PEOPLE'S CHOICE AWARD 2013</header>
-            <img src="./images/LG.png" height="100%" width="100%"style="border-radius:12%" class="msd">
+            <header class="page-header rw2" data-aos="fade-left">LG PEOPLE'S CHOICE AWARD 2013</header>
+            <img src="./images/LG.png" height="100%" width="100%"style="border-radius:12%" class="msd"  data-aos="fade-right">
           </div>
           <br>
           <footer>
@@ -66,6 +67,9 @@
             </div>
           </footer>
       </div>
-      
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+       AOS.init();
+     </script>
 </body>
 </html>

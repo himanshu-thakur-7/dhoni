@@ -14,7 +14,7 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
      
     <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Rochester&family=Russo+One&display=swap" rel="stylesheet"> 
-   
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!---- <script>
       var images= ["./images/2011.jpg","./images/2007.jpg","./images/ct2013.jpg"];
@@ -88,16 +88,16 @@
    <div class="container" id="c1">
      <span class="about">About..</span>
       <div class="wrapper1" >
-      <div class="bio" >Mahendra Singh Dhoni is an Indian international cricketer who captained
+      <div class="bio" data-aos="fade-up">Mahendra Singh Dhoni is an Indian international cricketer who captained
         the national team to glory in all the ICC tournaments.. The highlight of his 
         career being the 2011 Cricket World Cup where the man himself sealed the fate
         for his team in the final with a historical six....& claiming the 
         Man Of The Match.........</div>
-      <div class="image"><img src="./images/mahi.jpg" alt="mahi" height="70%" width="100%"id="cool"style="border-radius:12%"></div>
+      <div class="image" data-aos="fade-right"><img src="./images/mahi.jpg" alt="mahi" height="70%" width="100%"id="cool"style="border-radius:12%"></div>
       </div>
      <div class="wrapper1b">
-      <div class="image" ><img src="./images/msd.jpg" alt="mahi" height="90%" width="100%"style="border-radius:12%"></div>
-      <div class="conatiner" >
+      <div class="image" data-aos="fade-right"><img src="./images/msd.jpg" alt="mahi" height="90%" width="100%"style="border-radius:12%"></div>
+      <div class="conatiner" data-aos="flip-left">
         <form class="form">
       
         <h1 style="text-align: center;">SUBSCRIBE TO OUR NEWSLETTER</h1><br><br>
@@ -125,7 +125,7 @@
 
     </div>
     <hr color="black">
-      <blockquote class="blockquote">
+      <blockquote class="blockquote" data-aos="fade-up">
           <p>
            <i> I want people to remember me as a Good Person. Not as a Good Cricketer. </i>
           </p>
@@ -221,6 +221,10 @@ function clear(){
       
     });
  </script>
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+  AOS.init();
+</script>
 </body>
 
 </html>
